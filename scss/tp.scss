@@ -1,0 +1,140 @@
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  .logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      gap: 50px;
+      padding: 20px;
+      list-style-type: none;
+      .link {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+      .pin {
+        margin-left: 200px;
+      }
+      .hov:hover {
+        background-color: rgb(207, 17, 17);
+        border-radius: 100%;
+      }
+    }
+  }
+}
+.box {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+
+      text-align: justify;
+      letter-spacing: 0.1em;
+    }
+
+    .kiper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .big {
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+
+        color: #333333;
+      }
+      // .info {
+      //   gap: 10px;
+      // }
+      .web {
+        text-decoration: none;
+        color: #000;
+      }
+      .red {
+        background-color: rgb(228, 29, 29);
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 18px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.065em;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+      }
+    }
+    .end {
+      .go {
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+
+        text-transform: uppercase;
+
+        color: #333333;
+      }
+      .lo {
+        display: flex;
+        justify-content: space-between;
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    
+        text-align: justify;
+        color: #333333;
+      }
+    }
+  }
+}
